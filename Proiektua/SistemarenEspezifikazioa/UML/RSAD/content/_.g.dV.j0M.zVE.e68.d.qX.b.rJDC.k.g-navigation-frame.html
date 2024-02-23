@@ -2,44 +2,29 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<meta http-equiv="X-UA-Compatible" content="IE=7,8,9,10">
-<title>Modelo de caso de uso</title>
-<style type="text/css">
-            @import "dojo/dijit/themes/tundra/tundra.css";
-            @import "WebPublish.css";
-            @import "_.g.dV.j0M.zVE.e68.d.qX.b.rJDC.k.g-icons.css";
-            .dijitTreeContent {cursor:default;white-space:nowrap !important}
-        </style>
-        <script type="text/javascript" src="dojo/dojo/dojo.js"
-            djConfig="parseOnLoad: true"></script>
-        <script type="text/javascript" src="dojo/dojo/webpublish.js"></script>
-        <script language="JavaScript" type="text/javascript">
-            dojo.require("dojo.data.ItemFileReadStore");
-            dojo.require("dijit.Tree");
-        </script>
+<title>Documentación UML de Modelo de caso de uso</title>
+<meta name="generator" content="IBM Rational Model Publisher">
+<meta name="description" content="Contenido de Modelo de caso de uso publicado en HTML">
+<link rel="stylesheet" type="text/css" href="WebPublish.css">
 </head>
-<body class="tundra">
-<h2>Modelo de caso de uso</h2>
-<div dojoType="dojo.data.ItemFileReadStore" jsId="modelStore" url="_.g.dV.j0M.zVE.e68.d.qX.b.rJDC.k.g-tree.json"></div>
-        <div dojoType="dijit.tree.ForestStoreModel" jsId="treeModel" 
-            store="modelStore" query="{top:'true'}"
-            childrenAttrs="children"></div>
-        <div dojoType="dijit.Tree" jsId="tree" model="treeModel" showRoot="false">
-            <script type="dojo/method" event="getIconClass" args="item, opened">
-                var icon = null;
-                try {
-                    icon = item && modelStore.getValue(item, "icon");
-                } catch (e) {
-                    // leave icon null;
-                }
-                return icon || "noteIcon";
-            </script>
-            <script type="dojo/method" event="onClick" args="item">
-                var url = modelStore.getValue(item, "object");
-                if (url != null) {
-                    window.open(url, "elementFrame");
-                }
-            </script>
-</div>
+<body>
+<span class="Title">Documentación UML de Modelo de caso de uso</span>
+<table class="PackageList">
+<tr>
+<td nowrap><a target="packageFrame" href="_.g.dV.j0M.zVE.e68.d.qX.b.rJDC.k.g-allelements-frame.html">Todos los elementos</a>
+<br>
+<a target="packageFrame" href="_.g.dV.j0M.zVE.e68.d.qX.b.rJDC.k.g-alldiagrams-frame.html">Todos los diagramas</a>
+<p></p>
+<span class="ClassesTableHeading">Paquetes</span>
+<br>
+<a title="Modelo de caso de uso::Casos Uso" target="packageFrame" href="_V.m.m6.wM9.aE.e68.d.qX.b.rJDC.k.g-package-frame.html"><img border="0" src="../images/1980042952_icon.png" alt="Modelo de caso de uso::Casos Uso"></a>&nbsp;<a title="Modelo de caso de uso::Casos Uso" target="packageFrame" href="_V.m.m6.wM9.aE.e68.d.qX.b.rJDC.k.g-package-frame.html">Modelo de caso de uso::Casos Uso</a>
+<br>
+<a title="Modelo de caso de uso::Overviews" target="packageFrame" href="_.g.dV.kWM.zVE.e68.d.qX.b.rJDC.k.g-package-frame.html"><img border="0" src="../images/1980042952_icon.png" alt="Modelo de caso de uso::Overviews"></a>&nbsp;<a title="Modelo de caso de uso::Overviews" target="packageFrame" href="_.g.dV.kWM.zVE.e68.d.qX.b.rJDC.k.g-package-frame.html">Modelo de caso de uso::Overviews</a>
+<br>
+<a title="Modelo de caso de uso::Versatile Actors" target="packageFrame" href="_.g.dV.kT.c.zVE.e68.d.qX.b.rJDC.k.g-package-frame.html"><img border="0" src="../images/1980042952_icon.png" alt="Modelo de caso de uso::Versatile Actors"></a>&nbsp;<a title="Modelo de caso de uso::Versatile Actors" target="packageFrame" href="_.g.dV.kT.c.zVE.e68.d.qX.b.rJDC.k.g-package-frame.html">Modelo de caso de uso::Versatile Actors</a>
+<br>
+</td>
+</tr>
+</table>
 </body>
 </html>

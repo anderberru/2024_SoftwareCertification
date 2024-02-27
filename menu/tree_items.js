@@ -64,7 +64,7 @@ var TREE_ITEMS = [
 			],
 			[' A3 - Proposamenaren tamaina eta esfortzu estimazioa',null,
 				[' UML ereduei aplikatutako metriken emaitazk',null,
-					[' Software Architect: Analisi metriken txostena','../Proiektua/MemoriarenEranskinak/RSAD_Analisis/umleview_result.html'],
+					[' Software Architect: Analisi metriken txostena','../Proiektua/MemoriarenEranskinak/RSAD_Analisis/umlmetrics_results.pdf'],
 					[' SDMetrics: Erabilpen-kasuen ereduaren metrikak','../Proiektua/SistemarenEspezifikazioa/UML/RSAD/SDMetrics_Erabilpen-kasuen_eredua.xlsx'],
 					[' SDMetrics: Analisi ereduaren metrikak','../Proiektua/MemoriarenEranskinak/UML/RSAD/SDMetrics_Analisi_eredua.xlsx'],
 				],

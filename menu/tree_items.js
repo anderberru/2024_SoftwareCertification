@@ -120,6 +120,7 @@ var TREE_ITEMS = [
 					[' Proba Script-a', null],
 					[' Proben emaitzak', null],
 					[' User acceptace test (UAT)','../Proiektua/MemoriarenEranskinak/User-Accetptance-Test-Plan-Free-Word.pdf'],
+					[' Proposamena RFPekin parekatuta ebaluatzeko txantiloia', '../Proiektua/MemoriarenEranskinak/Proposamena RFPekin parekatuta ebaluatzeko txantiloia.pdf'],
 					[' RFP erantzunen hasierako ebaluazioa','../Proiektua/MemoriarenEranskinak/Software projects proposals evaluation template.pdf'],
 
 				],
